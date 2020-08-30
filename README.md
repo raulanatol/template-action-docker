@@ -40,7 +40,7 @@ The time we greeted you.
 ## Example usage
 
 ```yaml
-uses: actions/hello-world-docker-action@v1
+uses: raulanatol/template-action-docker@v1.0.0
 with:
   who-to-greet: 'Mona the Octocat'
 ```
@@ -60,7 +60,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: actions/hello-world-docker-action@v1
+      uses: raulanatol/template-action-docker@v1.0.0
       with:
         who-to-greet: 'Mona the Octocat'
     # Use the output from the `hello` step
